@@ -13,26 +13,7 @@ function showpass(){
     }
 }
 
-document.getElementById("myForm").addEventListener("submit", function(event) {
-    // Prevent the default form submission behavior
-    event.preventDefault();
-    console.log("working");
-    // Specify the relative path to the about.html file
-    var destinationPage = "/HomePage.html";
 
-    // Redirect to the specified page
-    window.location.href = destinationPage;
-    // Your custom logic or AJAX requests can go here
-
-    // For demonstration purposes, let's log a message
-    console.log("Form submission prevented. Custom logic can be added here.");
-});
-
-function redirectToAboutPage(event) {
-    event.preventDefault();
-
-   
-}
 
 
 
