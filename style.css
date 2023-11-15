@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+:root{
+    --blue:#00b4d8;
+    --white:#fff;
+    --green:#69c46244;
+    --orange:#fb8600a0;
+}
+
+.mainbody{
+    height: 90vh;
+}
+
+nav{
+    width: 100vw;
+    height: 4rem;
+    background-color:var(--blue) ;
+}
+body{
+    background-image: url(images/beach.jpeg);
+}
+img{
+    width: 5rem;
+    height: 5rem;
+}
+.container{
+    height: 90vh;
+    background-color: transparent;
+    
+}
+.card{
+    background-color: transparent !important;
+    backdrop-filter:blur(1px);
+    border: none !important;
+    box-shadow: rgba(155, 151, 151, 0.56) 5px 2px 30px 1px;
+}
+.form-control{
+    border: none !important;
+    background: var(--green) !important;
+}
+
+
+
+
+
+
+@media screen and (max-width: 321px) {
+   nav{
+    height: 5vh ;
+   }
+   img{
+    width: 3.5rem;
+    height: 3.5rem;
+   }
+   input{
+    font-size: 10px;
+    
+   }
+   /* button{
+    width: 8rem !important;
+   } */
+
+  }
