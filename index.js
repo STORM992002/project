@@ -1,5 +1,5 @@
 let password = document.getElementById("Password");
-let icon = document.getElementById("icon");
+let icon = document.getElementById("eye-icon");
 let loader=document.getElementById("loader-container");
 
 function showpass(){
@@ -13,19 +13,10 @@ function showpass(){
     }
 }
 
-
-
-
-
-
-
-
-
-
     // Function to hide the loader after a specified time (in milliseconds)
     function hideLoader() {
         loader.style.display ="none";
     }
 
     // Set a timeout to hide the loader after 3000 milliseconds (3 seconds)
-    setTimeout(hideLoader, 3000);
+    setTimeout(hideLoader, 1000);
