@@ -44,21 +44,43 @@ footer p{
    color: var(--black);
     
 }
-@media screen and (max-width: 405px) {
-   h5{
-    font-size: 11px !important;
+
+@media screen and (max-width: 410px) {
+   h4{
+    font-size: 16px !important;
+   }
+    h5{
+    font-size: 15px !important;
    }
    footer{
     font-size: 12px !important;
    }
+   ion-icon{
+    font-size: 22px !important;
+   }
   }
 
-  @media screen and ( max-width:860px) and (min-width: 405px) {
+  @media screen and ( max-width:576px) and (min-width: 400px) {
+
+  .dashboard{
+    max-width: 450px !important;
+   }
+
+  }
+
+  @media screen and ( max-width:860px) and (min-width: 410px) {
    h5{
     font-size: 16px !important;
    }
+ 
    #subfeature{
     bottom: 6rem !important;
    
+   }
+   footer{
+    font-size: 13px !important;
+   }
+   ion-icon{
+    font-size: 25px !important;
    }
   }
