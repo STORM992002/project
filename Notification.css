@@ -77,6 +77,9 @@ footer p{
    footer{
     font-size: 12px !important;
    }
+   ion-icon{
+    font-size: 22px !important;
+   }
   }
 
   @media screen and ( max-width:860px) and (min-width: 405px) {
@@ -100,5 +103,11 @@ footer p{
     font-size: 10px !important;
     width: 2.5rem !important;
     height: 2.5rem !important;
+   }
+   footer{
+    font-size: 13px !important;
+   }
+   ion-icon{
+    font-size: 25px !important;
    }
   }
