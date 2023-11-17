@@ -29,7 +29,7 @@ a{
 nav{
   
     width: 100vw;
-    height: 10vh;
+    height: 4rem;
     background-color:var(--blue) ;
 }
 
@@ -38,7 +38,7 @@ button ion-icon{
 }
 footer{
     width: 100vw;
-    height: 10vh;
+    height: 4rem;
 }
 footer p{
    color: var(--black);
@@ -52,6 +52,10 @@ footer p{
     h5{
     font-size: 15px !important;
    }
+   img{
+    width: 40px;
+    height: 40px;
+   }
    footer{
     font-size: 12px !important;
    }
@@ -63,7 +67,7 @@ footer p{
   @media screen and ( max-width:576px) and (min-width: 400px) {
 
   .dashboard{
-    max-width: 450px !important;
+    max-width: 410px !important;
    }
 
   }
